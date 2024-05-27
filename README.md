@@ -24,6 +24,7 @@ apt install python python3
 apt install Git
 git clone https://github.com/tityla900/BOMGRAM
 cd BOMGRAM
+cd BOMGRAM1.1
 python main.py
 ```
 
