@@ -6,29 +6,24 @@
 
 Для запуска, укажите адресса Hotmail почт в файл hot.txt
 Каждый адресс с новой строки!
+
 Пароли к ним укажите в файле pass.txt
+
 Опять же, каждый адресс с новой строки
 
 Если вы хотите подключить Gmail почту, то вводите адресса в gmail.txt а пароли в gpass.txt
+
+так же укажите текст жалоб в файле text.txt, скрипт будет рандомно выбирать от туда текст для писем и отправлять их, каждая жалоба с новой строки!
+
 
 
 ## Запуск на Termux:
 ```
 apt update && apt upgrade
-```
-```
 apt install python python3
-```
-```
 apt install Git
-```
-```
 git clone https://github.com/tityla900/BOMGRAM
-```
-```
 cd BOMGRAM
-```
-```
 python main.py
 ```
 
